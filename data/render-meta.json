@@ -1,0 +1,40 @@
+{
+ "site_id": "jisu123",
+ "name": "极速123 / YGPY称极速云",
+ "image": "images/speedtests/jisu123.png",
+ "attribution": "同一905.jsy902.xyz页段；图中永久官网标极速666.com，记录别名而不自动改域名",
+ "test_time_as_printed": "2026-04-30T12:37:22 (CST)",
+ "test_date": "2026-04-30",
+ "report_type": "ping_and_loss",
+ "has_download_throughput": false,
+ "backend_as_read": "珠海联通 5Gbps",
+ "tool_as_read": "MAI-TEST-BOT；版本2.0.0-dev，后端4.6.4",
+ "threads": null,
+ "threads_reading_note": "OCR在数字前混入图标，疑似12；未确证，不填整数",
+ "traffic_used_gb": null,
+ "duration_seconds": 27,
+ "ping_count": 5,
+ "table_rows": 125,
+ "metrics_present": [
+  "HTTP标准差",
+  "RTT标准差",
+  "延迟RTT",
+  "MAX RTT",
+  "HTTP延迟",
+  "丢包率"
+ ],
+ "example": {
+  "node": "香港_01",
+  "rtt_ms": 92,
+  "http_latency_ms": 94,
+  "loss_percent_raw": "40%",
+  "average_speed_raw": null,
+  "peak_speed_raw": null
+ },
+ "caveats": [
+  "标题和表头明确是PING测试，无下载速度；页脚虽写最大速度降序，也不能据此造出吞吐数据。",
+  "125行含前4条剩余流量/到期/公告/官网说明，这些100%丢包不算真实节点失败。",
+  "Ping仅5次；40%只说明该小样本结果，不代表长期丢包率。",
+  "6倍与旧价格图3倍冲突，复测速耗要按当前节点实际倍率确认。"
+ ]
+}
